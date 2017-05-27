@@ -1,0 +1,32 @@
+{
+  "name": "sallybot",
+  "version": "1.0.0",
+  "description": "sallybot",
+  "main": "app.js",
+  "scripts": {
+        "start": "node app.js"
+  },
+  "author": "Rushikesh",
+  "license": "ISC",
+  "dependencies": {
+    "botbuilder": "^3.8.3",
+    "google-auth-library": "^0.10.0",
+    "googleapis": "^19.0.0",
+    "restify": "^4.3.0"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rubgade/sallybot.git"
+  },
+  "keywords": [
+    "sallybot",
+    "personal",
+    "assistant",
+    "myhelp"
+  ],
+  "bugs": {
+    "url": "https://github.com/rubgade/sallybot/issues"
+  },
+  "homepage": "https://github.com/rubgade/sallybot#readme"
+}
