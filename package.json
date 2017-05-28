@@ -4,15 +4,19 @@
   "description": "sallybot",
   "main": "app.js",
   "scripts": {
-        "start": "node app.js"
+    "start": "node app.js"
   },
   "author": "Rushikesh",
   "license": "ISC",
   "dependencies": {
+    "bluebird": "^3.5.0",
     "botbuilder": "^3.8.3",
+    "dotenv-extended": "^2.0.0",
     "google-auth-library": "^0.10.0",
     "googleapis": "^19.0.0",
-    "restify": "^4.3.0"
+    "request-promise": "^4.2.1",
+    "restify": "^4.3.0",
+    "restify-plugins": "^1.6.0"
   },
   "devDependencies": {},
   "repository": {
